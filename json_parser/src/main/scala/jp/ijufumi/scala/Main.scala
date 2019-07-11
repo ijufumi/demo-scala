@@ -4,6 +4,6 @@ import scala.io.Source
 
 object Main extends App {
   val sources = Source.fromFile("src/main/resources/sample.json")
-  sources.foreach(x => println(x))
+  sources.foreach(println)
   sources.close()
 }
