@@ -16,7 +16,7 @@ object Main extends App {
   sources.foreach(s => {
     s.toString match {
       case checkStartBracket1(_) | checkStartBracket2(_) => print(_)
-      case checkEndBracket1(_) | checkEndBracket2                 (_)=> println
+      case checkEndBracket1(_) | checkEndBracket2(_)=> println
       case checkQuotation(_) => print(_)
       case checkCologne(_) => println
       case checkComma(_) => println
